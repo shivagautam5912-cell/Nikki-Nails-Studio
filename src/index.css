@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --color-primary: #FDFBF7; /* Nude Beige / Off white background */
+  --color-secondary: #F4E1E1; /* Soft Pink */
+  --color-accent: #D4AF37; /* Gold */
+  --color-text: #2C2A29; /* Dark brown/black for text */
+  --color-muted: #8A7E78; /* Muted text */
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+html {
+  scroll-behavior: smooth;
+}
